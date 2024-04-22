@@ -11,7 +11,7 @@ For example, if I need to create a file /tmp/test containing the string hello wo
 
      - sylvain@ubuntu cat 88-script_example
      - #!/usr/bin/env bash
-     - # Configuring a server with specification XYZ
+     - #Configuring a server with specification XYZ
      - echo hello world > /tmp/test
      - sed -i 's/80/8080/g' /etc/nginx/sites-enabled/default
      - sylvain@ubuntu
